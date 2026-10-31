@@ -11,5 +11,12 @@
     "coverage": 40,
     "method": "逐筆檢查條件、範圍、引用、數據、問答順序與時序，列出可能誤讀、應保留資訊及待核事項。",
     "limitation": "AI 質性判讀；未蒐集實際傳播切片，未推定造謠意圖或真偽。"
-  }
+  },
+  "source_section_ids": {
+    "0": "sec-open",
+    "1": "sec-cross",
+    "2": "sec-media",
+    "3": "sec-close"
+  },
+  "source_link_scope": "來源連結定位原站的階段標題；原站未提供個別發言 ID。"
 }

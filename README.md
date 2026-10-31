@@ -77,6 +77,8 @@ python3 -m http.server 4173 --directory _site
 
 原文全文未重刊。資料保留來源頁 `ARCHIVE_ROWS` 的零起算列號、候選人、角色與議題；T01–T40 為本站實質發言順序編號。完整來源與判準可在網站底部展開檢視。
 
+每筆分析與脈絡風險的來源連結，依階段帶上原站的 `#sec-open`、`#sec-cross`、`#sec-media` 或 `#sec-close`。原站未提供單筆發言 ID，因此定位範圍為階段標題；下載的 JSON 同時包含每筆 `source_url`。
+
 - [ETtoday 逐字稿](https://features.ettoday.net/taipei-debate-2026/)
 - [tingtmu/minerva-hc-skills](https://github.com/tingtmu/minerva-hc-skills)
 - [charlesjr0719dev/mnv-thinking-skill](https://github.com/charlesjr0719dev/mnv-thinking-skill)
