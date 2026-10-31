@@ -5,5 +5,11 @@
   "units": 40,
   "response_units": 20,
   "row_convention": "來源頁面 ARCHIVE_ROWS，0 起算；T 編號為本站按候選人實質發言順序編排。",
-  "coder": "AI 單次質性編碼，非獨立多人研究；未估計編碼者一致性。"
+  "coder": "AI 單次質性編碼，非獨立多人研究；未估計編碼者一致性。",
+  "context_risk": {
+    "version": 1,
+    "coverage": 40,
+    "method": "逐筆檢查條件、範圍、引用、數據、問答順序與時序，列出可能誤讀、應保留資訊及待核事項。",
+    "limitation": "AI 質性判讀；未蒐集實際傳播切片，未推定造謠意圖或真偽。"
+  }
 }

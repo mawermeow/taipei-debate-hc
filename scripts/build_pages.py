@@ -45,6 +45,25 @@ def validate_candidate_filter(html):
         raise ValueError("Candidate filter must contain all, s (沈伯洋), and j (蔣萬安) options")
 
 
+def validate_context_risks(records):
+    tags = {"condition", "scope", "attribution", "statistic", "reply", "timeline"}
+    ids = {record["id"] for record in records}
+    if len(ids) != len(records):
+        raise ValueError("Duplicate turn IDs")
+    for record in records:
+        risk = record.get("contextRisk", {})
+        if not risk.get("tags") or not set(risk["tags"]) <= tags:
+            raise ValueError(f"Invalid context risk tags: {record['id']}")
+        for field in ("context", "misreading", "preserve", "verification"):
+            if not isinstance(risk.get(field), str) or not risk[field].strip():
+                raise ValueError(f"Missing context risk {field}: {record['id']}")
+        related = risk.get("relatedTurns")
+        if not isinstance(related, list) or not related or len(related) != len(set(related)):
+            raise ValueError(f"Invalid related turns: {record['id']}")
+        if not set(related) <= ids or record["id"] in related:
+            raise ValueError(f"Broken context reference: {record['id']}")
+
+
 def main():
     # Validate inputs before changing the previously generated artifact.
     for name in PUBLIC_FILES:
@@ -54,6 +73,7 @@ def main():
         json.loads((ROOT / name).read_text(encoding="utf-8"))
 
     validate_candidate_filter((ROOT / "index.html").read_text(encoding="utf-8"))
+    validate_context_risks(json.loads((ROOT / "data.json").read_text(encoding="utf-8")))
 
     if OUTPUT.is_symlink():
         raise RuntimeError("Refusing to write through an _site symlink")
