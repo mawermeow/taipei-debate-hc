@@ -1,0 +1,9 @@
+{
+  "source": "https://features.ettoday.net/taipei-debate-2026/",
+  "retrieved": "2026-10-31",
+  "sha256": "04ded2c9ef6298656503f8283b8ac2a6c83b79dfe976b5958161765f0e1d7a57",
+  "units": 40,
+  "response_units": 20,
+  "row_convention": "來源頁面 ARCHIVE_ROWS，0 起算；T 編號為本站按候選人實質發言順序編排。",
+  "coder": "AI 單次質性編碼，非獨立多人研究；未估計編碼者一致性。"
+}

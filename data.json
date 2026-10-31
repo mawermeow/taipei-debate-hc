@@ -1,0 +1,890 @@
+[
+  {
+    "id": "T01",
+    "row": 9,
+    "candidate": "s",
+    "stage": 0,
+    "role": "申論",
+    "topic": "施政願景",
+    "aggression": 0,
+    "target": "n",
+    "hc": [
+      "rightproblem",
+      "breakitdown",
+      "evidencebased"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "從市民需求推到百日施政項目，提出資料蒐集方法；但自願回報與陳情資料的代表性、政策成本未交代。",
+    "quality": null
+  },
+  {
+    "id": "T02",
+    "row": 11,
+    "candidate": "j",
+    "stage": 0,
+    "role": "申論",
+    "topic": "施政成果",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "evidencebased"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "以承諾與成果逐項對照，政策例子明確；開場將對手描述成只會說口號，成果數字的來源與因果歸屬未完整交代。",
+    "quality": null
+  },
+  {
+    "id": "T03",
+    "row": 15,
+    "candidate": "j",
+    "stage": 1,
+    "role": "提問",
+    "topic": "都更與航高",
+    "aggression": 1,
+    "target": "p",
+    "hc": [
+      "constraints",
+      "critique",
+      "evidencebased"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "要求解釋兩處都更卡關的實際原因；有具體案例，但比較都更案件數時未交代分母及統計期間。",
+    "quality": null
+  },
+  {
+    "id": "T04",
+    "row": 16,
+    "candidate": "s",
+    "stage": 1,
+    "role": "回答",
+    "topic": "都更與航高",
+    "aggression": 1,
+    "target": "p",
+    "hc": [
+      "rightproblem",
+      "breakitdown",
+      "critique",
+      "evidencebased"
+    ],
+    "limits": [
+      "constraints"
+    ],
+    "note": "把都更拆成入口、審議、動工及完工，指出案件數不能直接代表成效；沒有回答兩個指定案例的原因。",
+    "quality": [
+      1,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T05",
+    "row": 17,
+    "candidate": "j",
+    "stage": 1,
+    "role": "追問",
+    "topic": "都更、臨托與師資",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "constraints",
+      "critique",
+      "evidencebased"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "補出航高限制，追問保母與導師供給；同時用能力貶抑評價對手。人力倍數缺乏計算過程，且一輪新增多個議題。",
+    "quality": null
+  },
+  {
+    "id": "T06",
+    "row": 18,
+    "candidate": "s",
+    "stage": 1,
+    "role": "再答",
+    "topic": "都更、臨托與師資",
+    "aggression": 1,
+    "target": "p",
+    "hc": [
+      "constraints",
+      "breakitdown",
+      "context",
+      "evidencebased"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "承接航高問題，說明臨托分齡、擴充場所、培訓人力與雙導師試辦；沒有補上人力數量與經費估算。",
+    "quality": [
+      3,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T07",
+    "row": 19,
+    "candidate": "s",
+    "stage": 1,
+    "role": "提問",
+    "topic": "出席會議與領導",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique",
+      "evidencebased"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "以會議出席率質疑領導方式；提出具體數字，但從缺席推到市政失焦仍需證明，交通排名與事故下降也未統一口徑。",
+    "quality": null
+  },
+  {
+    "id": "T08",
+    "row": 20,
+    "candidate": "j",
+    "stage": 1,
+    "role": "回答",
+    "topic": "出席會議與領導",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "breakitdown",
+      "responsibility"
+    ],
+    "limits": [
+      "critique"
+    ],
+    "note": "區別定期會議與即時專案應變，列出親自處理案例；未逐一說明被問會議的缺席原因，後半轉問對手的立法院出席。",
+    "quality": [
+      2,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T09",
+    "row": 21,
+    "candidate": "s",
+    "stage": 1,
+    "role": "追問",
+    "topic": "出席會議與領導",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique",
+      "evidencebased"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "指出原問與答覆的落差，再以局長出席差異追問；把上下級行為連成負面品格評語，因果連結仍不足。",
+    "quality": null
+  },
+  {
+    "id": "T10",
+    "row": 22,
+    "candidate": "j",
+    "stage": 1,
+    "role": "再答",
+    "topic": "出席會議與領導",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "breakitdown",
+      "responsibility"
+    ],
+    "limits": [
+      "critique"
+    ],
+    "note": "提出分層負責、市政會議統籌及三大會報的治理邏輯；對具體缺席紀錄與局長個案說明有限，並反問對手。",
+    "quality": [
+      3,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T11",
+    "row": 23,
+    "candidate": "j",
+    "stage": 1,
+    "role": "提問",
+    "topic": "AI 廊帶與市民大道",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "constraints",
+      "critique"
+    ],
+    "limits": [
+      "context"
+    ],
+    "note": "詢問停車面積、需求與替代方案，是可行性檢驗；但以其他政治人物的廊帶主張檢驗對手，尚須釐清同一概念是否同一尺度。",
+    "quality": null
+  },
+  {
+    "id": "T12",
+    "row": 24,
+    "candidate": "s",
+    "stage": 1,
+    "role": "回答",
+    "topic": "AI 廊帶與市民大道",
+    "aggression": 1,
+    "target": "p",
+    "hc": [
+      "context",
+      "breakitdown",
+      "constraints"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "區分跨縣市廊帶與市內 AI 分層，澄清不會全面廢停車格；未回答具體面積、停車位與客滿時數。",
+    "quality": [
+      2,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T13",
+    "row": 25,
+    "candidate": "j",
+    "stage": 1,
+    "role": "追問",
+    "topic": "交通與空間限制",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "constraints",
+      "critique",
+      "evidencebased"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "追問自行車橋的通勤適用性與條通路寬，切中使用條件；也將爭議提升為對手不熟悉城市的能力評價。",
+    "quality": null
+  },
+  {
+    "id": "T14",
+    "row": 26,
+    "candidate": "s",
+    "stage": 1,
+    "role": "再答",
+    "topic": "交通與空間限制",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "context",
+      "constraints",
+      "critique"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "以商圈間的人流解釋空間縫合，提出橋墩落點與通勤路徑限制；沒有回答條通植樹與設車架問題，末段反評對手熟悉度。",
+    "quality": [
+      2,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T15",
+    "row": 27,
+    "candidate": "s",
+    "stage": 1,
+    "role": "提問",
+    "topic": "茄苳樹與 SOP",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique",
+      "responsibility",
+      "evidencebased"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "用數項施政問題鋪陳，最後明確詢問誤砍樹的程序失誤；能力質疑與政策批判並存，各案例的時程和資料需另核對。",
+    "quality": null
+  },
+  {
+    "id": "T16",
+    "row": 28,
+    "candidate": "j",
+    "stage": 1,
+    "role": "回答",
+    "topic": "茄苳樹與 SOP",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "evidencebased"
+    ],
+    "limits": [
+      "critique",
+      "responsibility"
+    ],
+    "note": "回答午餐、鮮奶與植樹數據，反指對手因選舉散布不實資訊；未回到東門茄苳樹是哪個 SOP 環節出錯。",
+    "quality": [
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "T17",
+    "row": 29,
+    "candidate": "s",
+    "stage": 1,
+    "role": "追問",
+    "topic": "茄苳樹與 SOP",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique",
+      "context",
+      "sourcequality"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "區分反對免費午餐與要求品質，也區分樹冠變化與市府砍樹；再次追問原 SOP，但雙方對過往發言的描述尚未外部查證。",
+    "quality": null
+  },
+  {
+    "id": "T18",
+    "row": 30,
+    "candidate": "j",
+    "stage": 1,
+    "role": "再答",
+    "topic": "茄苳樹與 SOP",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "context",
+      "evidencebased"
+    ],
+    "limits": [
+      "critique",
+      "responsibility"
+    ],
+    "note": "指出樹冠減少不能等同市府砍樹，具有歸因辨析；仍未交代指定誤砍事件的失誤環節，並以口誤質疑對手是否關心孩子。",
+    "quality": [
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "T19",
+    "row": 33,
+    "candidate": "j",
+    "stage": 1,
+    "role": "提問",
+    "topic": "歷史發言與一致性",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique"
+    ],
+    "limits": [
+      "context"
+    ],
+    "note": "連續列舉過往立場，檢驗政治一致性；缺少完整原始引文脈絡，一次多問也限制逐題答覆空間。",
+    "quality": null
+  },
+  {
+    "id": "T20",
+    "row": 34,
+    "candidate": "s",
+    "stage": 1,
+    "role": "回答",
+    "topic": "歷史發言與一致性",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "context",
+      "constraints"
+    ],
+    "limits": [
+      "critique",
+      "evidencebased",
+      "fallacies"
+    ],
+    "note": "集中回答雙城論壇的交流條件，其他歷史發言多未解釋；把論壇後出現軍演並列，不能單靠時間先後證明因果，並以職務交換反諷。",
+    "quality": [
+      2,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "T21",
+    "row": 35,
+    "candidate": "j",
+    "stage": 1,
+    "role": "追問",
+    "topic": "財劃法與一致性",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique",
+      "context"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "說明財源與市政關係，追問過往反對與現在使用財源是否矛盾；仍需還原當時修法版本及主張脈絡。",
+    "quality": null
+  },
+  {
+    "id": "T22",
+    "row": 36,
+    "candidate": "s",
+    "stage": 1,
+    "role": "再答",
+    "topic": "財劃法與一致性",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "context",
+      "constraints",
+      "breakitdown",
+      "evidencebased"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "區分舉債與非舉債、財源與事權，並說明人事費限制；回應一致性較完整，但法律與預算的敘述是候選人主張，本站不作法律認定。",
+    "quality": [
+      3,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T23",
+    "row": 37,
+    "candidate": "s",
+    "stage": 1,
+    "role": "提問",
+    "topic": "兒虐與食安處置標準",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique",
+      "responsibility",
+      "evidencebased"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "以不同個案的服務差異追問一致標準；暗示媒體關注、民代或推薦關係影響處置，但未建立可比較條件與因果證據。",
+    "quality": null
+  },
+  {
+    "id": "T24",
+    "row": 38,
+    "candidate": "j",
+    "stage": 1,
+    "role": "回答",
+    "topic": "兒虐與食安處置標準",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "responsibility",
+      "breakitdown"
+    ],
+    "limits": [
+      "critique"
+    ],
+    "note": "承認兒童安全屬市長責任，列出停業、稽查與制度改善；未解釋被問個案之間的諮商及到場差異，轉向對手的修法立場。",
+    "quality": [
+      2,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T25",
+    "row": 39,
+    "candidate": "s",
+    "stage": 1,
+    "role": "追問",
+    "topic": "兒虐與食安處置標準",
+    "aggression": 1,
+    "target": "p",
+    "hc": [
+      "critique",
+      "responsibility"
+    ],
+    "limits": [
+      "context"
+    ],
+    "note": "澄清對修法版本的看法，重提標準差異，再以反事實問題要求說明問責；多個問題混合，仍需分清市長、議會及黨團權責。",
+    "quality": null
+  },
+  {
+    "id": "T26",
+    "row": 40,
+    "candidate": "j",
+    "stage": 1,
+    "role": "再答",
+    "topic": "兒虐與食安處置標準",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "evidencebased",
+      "responsibility"
+    ],
+    "limits": [
+      "critique"
+    ],
+    "note": "列出採證、記者會、稽查與檢驗措施，回應曾做哪些事；未直接說明重來會改什麼，後半轉向中央食安並將責任連到對手。",
+    "quality": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "T27",
+    "row": 41,
+    "candidate": "j",
+    "stage": 1,
+    "role": "提問",
+    "topic": "毒駕、刑責與預防",
+    "aggression": 3,
+    "target": "m",
+    "hc": [
+      "critique",
+      "responsibility",
+      "evidencebased"
+    ],
+    "limits": [
+      "context",
+      "fallacies"
+    ],
+    "note": "檢驗歷史發言與投票行為，但直接把不同刑罰立場概括成站在加害者一方，省略其他可能理由，並否定其同理能力。",
+    "quality": null
+  },
+  {
+    "id": "T28",
+    "row": 42,
+    "candidate": "s",
+    "stage": 1,
+    "role": "回答",
+    "topic": "毒駕、刑責與預防",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "constraints",
+      "context",
+      "rightproblem"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "區分刑罰比例、立法程序與地方預防，提出警力、校園和來源管理；未直接交代是否參與該次投票，且反諷對手不懂立法院。",
+    "quality": [
+      3,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T29",
+    "row": 43,
+    "candidate": "j",
+    "stage": 1,
+    "role": "追問",
+    "topic": "毒駕、刑責與預防",
+    "aggression": 3,
+    "target": "m",
+    "hc": [
+      "responsibility"
+    ],
+    "limits": [
+      "fallacies",
+      "critique"
+    ],
+    "note": "強調被害者經驗與民意，但將專業預防方案連到傲慢、不適任，未解釋預防與加重刑罰為何不能並行。",
+    "quality": null
+  },
+  {
+    "id": "T30",
+    "row": 44,
+    "candidate": "s",
+    "stage": 1,
+    "role": "再答",
+    "topic": "毒駕、刑責與預防",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "context",
+      "rightproblem",
+      "breakitdown",
+      "evidencebased"
+    ],
+    "limits": [
+      "evidencebased",
+      "fallacies"
+    ],
+    "note": "以被害者服務經驗回應同理質疑，提出 SBIRT 及地方預防作法；缺少成效研究細節，並把對手說法擴張成極端的販毒者形象。",
+    "quality": [
+      3,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T31",
+    "row": 45,
+    "candidate": "s",
+    "stage": 1,
+    "role": "提問",
+    "topic": "松機遷移與 AI 園區",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "constraints",
+      "critique",
+      "evidencebased"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "追問遷機計畫、醫療後送及 AI 時程，具有可行性檢驗；把選前推出政策連到倉促動機仍是推測。",
+    "quality": null
+  },
+  {
+    "id": "T32",
+    "row": 46,
+    "candidate": "j",
+    "stage": 1,
+    "role": "回答",
+    "topic": "松機遷移與 AI 園區",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "constraints",
+      "evidencebased"
+    ],
+    "limits": [
+      "critique"
+    ],
+    "note": "以較早的公文反駁臨時提出，提出直升機坪與桃園醫療配套；未量化運輸、跑道及時程限制，後段以決心替代可行性論證並質疑中央動機。",
+    "quality": [
+      3,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "T33",
+    "row": 47,
+    "candidate": "s",
+    "stage": 1,
+    "role": "追問",
+    "topic": "松機遷移與 AI 園區",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "critique",
+      "sourcequality",
+      "evidencebased"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "區分表達立場與具體計畫，質疑營業額與產值口徑，邀約再辯論；數字比較仍需原始計算表與產業範圍，不能單據此認定算錯。",
+    "quality": null
+  },
+  {
+    "id": "T34",
+    "row": 48,
+    "candidate": "j",
+    "stage": 1,
+    "role": "再答",
+    "topic": "松機遷移與 AI 園區",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "context",
+      "evidencebased"
+    ],
+    "limits": [
+      "critique"
+    ],
+    "note": "回應可由團隊協調再辯論，補充營區收回與評估；未回答 AI 估值算法，轉回公館事故統計，並指稱對手刻意隱瞞。",
+    "quality": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "T35",
+    "row": 53,
+    "candidate": "j",
+    "stage": 2,
+    "role": "回答",
+    "topic": "四年後的市民日常",
+    "aggression": 0,
+    "target": "n",
+    "hc": [
+      "breakitdown",
+      "evidencebased"
+    ],
+    "limits": [
+      "constraints"
+    ],
+    "note": "依育兒、通勤、運動與文化設施描繪日常，覆蓋提問多數面向；對長照資源較少說明，設施啟用與普及的成本、條件未展開。",
+    "quality": [
+      4,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T36",
+    "row": 54,
+    "candidate": "s",
+    "stage": 2,
+    "role": "回答",
+    "topic": "四年後的市民日常",
+    "aggression": 0,
+    "target": "n",
+    "hc": [
+      "rightproblem",
+      "breakitdown",
+      "constraints"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "以節省時間和降低焦慮串起交通、家庭專線、健身小巴與商圈；連結較清楚，但長照支持、推行規模、經費與期程仍不足。",
+    "quality": [
+      4,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T37",
+    "row": 56,
+    "candidate": "s",
+    "stage": 2,
+    "role": "回答",
+    "topic": "都更與首都韌性",
+    "aggression": 0,
+    "target": "n",
+    "hc": [
+      "breakitdown",
+      "constraints",
+      "responsibility"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "提出初篩、到府服務、資訊揭露三步驟，回應風險與住戶權益；東京制度如何轉用、強制介入門檻及極端氣候配套說明有限。",
+    "quality": [
+      4,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T38",
+    "row": 57,
+    "candidate": "j",
+    "stage": 2,
+    "role": "回答",
+    "topic": "都更與首都韌性",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "constraints",
+      "breakitdown",
+      "critique"
+    ],
+    "limits": [
+      "sourcequality"
+    ],
+    "note": "具體說明整合誘因、公辦門檻與容積獎勵，也逐點回應對手方案；對強制介入、補強與極端氣候仍不完整，東京類比缺少制度差異比較。",
+    "quality": [
+      4,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "T39",
+    "row": 61,
+    "candidate": "j",
+    "stage": 3,
+    "role": "結論",
+    "topic": "結論與問責",
+    "aggression": 3,
+    "target": "m",
+    "hc": [
+      "responsibility",
+      "critique"
+    ],
+    "limits": [
+      "fallacies",
+      "context"
+    ],
+    "note": "補充誤砍樹的廠商偏離與懲處，屬延遲回應；隨後將選擇整理為數組二元對立，密集評價對手的誠信、包裝與意識形態。",
+    "quality": null
+  },
+  {
+    "id": "T40",
+    "row": 62,
+    "candidate": "s",
+    "stage": 3,
+    "role": "結論",
+    "topic": "結論與治理價值",
+    "aggression": 2,
+    "target": "m",
+    "hc": [
+      "rightproblem",
+      "context"
+    ],
+    "limits": [
+      "evidencebased"
+    ],
+    "note": "用民眾體感補充成果數字的限制，重申治理與照顧價值；也將對手描述成急於卸責，自稱沒有負面攻擊須與前文具體發言對照。",
+    "quality": null
+  }
+]

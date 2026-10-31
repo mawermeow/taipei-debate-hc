@@ -1,0 +1,19 @@
+# Local OS/editor state
+.DS_Store
+.idea/
+.vscode/
+
+# Generated GitHub Pages artifact
+_site/
+__pycache__/
+
+# Original local Sites checkout and hosting state
+/sites/
+.openai/
+.codex/
+.agents/
+
+# Local credentials
+.env
+.env.*
+!.env.example
